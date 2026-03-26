@@ -1,0 +1,69 @@
+:root {
+  --text: #44505f;
+  --text-h: #0f172a;
+  --page-bg: #f6f8fb;
+  --surface: #ffffff;
+  --border: #e6ebf2;
+  --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --shadow-sm: 0 6px 18px rgba(15, 23, 42, 0.06);
+
+  --accent: #2563eb;
+  --accent-weak: rgba(37, 99, 235, 0.12);
+  --accent-border: rgba(37, 99, 235, 0.35);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/150% var(--sans);
+  letter-spacing: 0.1px;
+  color: var(--text);
+  background: var(--page-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 650;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 34px;
+  letter-spacing: -0.8px;
+}
+h2 {
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: -0.2px;
+  margin: 0 0 8px;
+}
+p {
+  margin: 0;
+}
+
+code {
+  font-family: var(--mono);
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: rgba(15, 23, 42, 0.06);
+}
