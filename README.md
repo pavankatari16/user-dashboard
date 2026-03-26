@@ -84,7 +84,7 @@ npm run preview
 
 🔗 Live Demo
 
-(Add your Render deployment link here)
+https://user-dashboard-u0gz.onrender.com
 
 ---
 
